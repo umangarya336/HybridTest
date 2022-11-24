@@ -255,8 +255,8 @@ using UInt = size_t;
 @protocol FlutterPluginRegistrar;
 @class FlutterMethodCall;
 
-SWIFT_CLASS("_TtC10HybridTest33SwiftPayuCheckoutproFlutterPlugin")
-@interface SwiftPayuCheckoutproFlutterPlugin : NSObject <FlutterPlugin>
+SWIFT_CLASS("_TtC10HybridTest25SwiftHybridUFlutterPlugin")
+@interface SwiftHybridUFlutterPlugin : NSObject <FlutterPlugin>
 + (void)registerWithRegistrar:(id <FlutterPluginRegistrar> _Nonnull)registrar;
 - (void)handleMethodCall:(FlutterMethodCall * _Nonnull)call result:(FlutterResult _Nonnull)result;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
