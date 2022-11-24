@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDBC88B2292F4C0A00B6B4EF /* HybridTest.docc in Sources */ = {isa = PBXBuildFile; fileRef = DDBC88B1292F4C0A00B6B4EF /* HybridTest.docc */; };
+		DDBC88B3292F4C0A00B6B4EF /* HybridTest.h in Headers */ = {isa = PBXBuildFile; fileRef = DDBC88B0292F4C0A00B6B4EF /* HybridTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDBC88BC292F4E5700B6B4EF /* HybridUFlutterPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = DDBC88B9292F4E5600B6B4EF /* HybridUFlutterPlugin.h */; };
+		DDBC88BD292F4E5700B6B4EF /* SwiftHybridUFlutterPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBC88BA292F4E5600B6B4EF /* SwiftHybridUFlutterPlugin.swift */; };
+		DDBC88BE292F4E5700B6B4EF /* HybridUFlutterPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBC88BB292F4E5700B6B4EF /* HybridUFlutterPlugin.m */; };
+		DDBC88C1292F4E5F00B6B4EF /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = DDBC88BF292F4E5E00B6B4EF /* Utils.h */; };
+		DDBC88C2292F4E5F00B6B4EF /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBC88C0292F4E5E00B6B4EF /* Utils.m */; };
+		DDBC88C5292F537B00B6B4EF /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDBC88C4292F537B00B6B4EF /* Flutter.xcframework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDBC88AD292F4C0A00B6B4EF /* HybridTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HybridTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBC88B0292F4C0A00B6B4EF /* HybridTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HybridTest.h; sourceTree = "<group>"; };
+		DDBC88B1292F4C0A00B6B4EF /* HybridTest.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = HybridTest.docc; sourceTree = "<group>"; };
+		DDBC88B9292F4E5600B6B4EF /* HybridUFlutterPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HybridUFlutterPlugin.h; sourceTree = "<group>"; };
+		DDBC88BA292F4E5600B6B4EF /* SwiftHybridUFlutterPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftHybridUFlutterPlugin.swift; sourceTree = "<group>"; };
+		DDBC88BB292F4E5700B6B4EF /* HybridUFlutterPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HybridUFlutterPlugin.m; sourceTree = "<group>"; };
+		DDBC88BF292F4E5E00B6B4EF /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		DDBC88C0292F4E5E00B6B4EF /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		DDBC88C4292F537B00B6B4EF /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = "../Test/untitled folder/Flutter.xcframework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDBC88AA292F4C0A00B6B4EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBC88C5292F537B00B6B4EF /* Flutter.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDBC88A3292F4C0A00B6B4EF = {
+			isa = PBXGroup;
+			children = (
+				DDBC88AF292F4C0A00B6B4EF /* HybridTest */,
+				DDBC88AE292F4C0A00B6B4EF /* Products */,
+				DDBC88C3292F537B00B6B4EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDBC88AE292F4C0A00B6B4EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDBC88AD292F4C0A00B6B4EF /* HybridTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDBC88AF292F4C0A00B6B4EF /* HybridTest */ = {
+			isa = PBXGroup;
+			children = (
+				DDBC88B9292F4E5600B6B4EF /* HybridUFlutterPlugin.h */,
+				DDBC88BB292F4E5700B6B4EF /* HybridUFlutterPlugin.m */,
+				DDBC88BA292F4E5600B6B4EF /* SwiftHybridUFlutterPlugin.swift */,
+				DDBC88BF292F4E5E00B6B4EF /* Utils.h */,
+				DDBC88C0292F4E5E00B6B4EF /* Utils.m */,
+				DDBC88B0292F4C0A00B6B4EF /* HybridTest.h */,
+				DDBC88B1292F4C0A00B6B4EF /* HybridTest.docc */,
+			);
+			path = HybridTest;
+			sourceTree = "<group>";
+		};
+		DDBC88C3292F537B00B6B4EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDBC88C4292F537B00B6B4EF /* Flutter.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DDBC88A8292F4C0A00B6B4EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBC88C1292F4E5F00B6B4EF /* Utils.h in Headers */,
+				DDBC88B3292F4C0A00B6B4EF /* HybridTest.h in Headers */,
+				DDBC88BC292F4E5700B6B4EF /* HybridUFlutterPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DDBC88AC292F4C0A00B6B4EF /* HybridTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDBC88B6292F4C0A00B6B4EF /* Build configuration list for PBXNativeTarget "HybridTest" */;
+			buildPhases = (
+				DDBC88A8292F4C0A00B6B4EF /* Headers */,
+				DDBC88A9292F4C0A00B6B4EF /* Sources */,
+				DDBC88AA292F4C0A00B6B4EF /* Frameworks */,
+				DDBC88AB292F4C0A00B6B4EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HybridTest;
+			productName = HybridTest;
+			productReference = DDBC88AD292F4C0A00B6B4EF /* HybridTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDBC88A4292F4C0A00B6B4EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					DDBC88AC292F4C0A00B6B4EF = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
+					};
+				};
+			};
+			buildConfigurationList = DDBC88A7292F4C0A00B6B4EF /* Build configuration list for PBXProject "HybridTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDBC88A3292F4C0A00B6B4EF;
+			productRefGroup = DDBC88AE292F4C0A00B6B4EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDBC88AC292F4C0A00B6B4EF /* HybridTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDBC88AB292F4C0A00B6B4EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDBC88A9292F4C0A00B6B4EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBC88BD292F4E5700B6B4EF /* SwiftHybridUFlutterPlugin.swift in Sources */,
+				DDBC88BE292F4E5700B6B4EF /* HybridUFlutterPlugin.m in Sources */,
+				DDBC88B2292F4C0A00B6B4EF /* HybridTest.docc in Sources */,
+				DDBC88C2292F4E5F00B6B4EF /* Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDBC88B4292F4C0A00B6B4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDBC88B5292F4C0A00B6B4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDBC88B7292F4C0A00B6B4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3T2M5UN5C5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../Test/untitled folder\"";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.payu.HybridTest;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDBC88B8292F4C0A00B6B4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3T2M5UN5C5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../Test/untitled folder\"";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.payu.HybridTest;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDBC88A7292F4C0A00B6B4EF /* Build configuration list for PBXProject "HybridTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBC88B4292F4C0A00B6B4EF /* Debug */,
+				DDBC88B5292F4C0A00B6B4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDBC88B6292F4C0A00B6B4EF /* Build configuration list for PBXNativeTarget "HybridTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBC88B7292F4C0A00B6B4EF /* Debug */,
+				DDBC88B8292F4C0A00B6B4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDBC88A4292F4C0A00B6B4EF /* Project object */;
+}
