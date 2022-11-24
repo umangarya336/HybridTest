@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "HybridTest"
-  s.version             = "1.0.0"
+  s.version             = "1.0.1"
   s.license             = "MIT"
   s.homepage            = "https://github.com/umangarya336/HybridTest"
   s.author              = { "umang" => "umang@arya.in"  }
