@@ -1,0 +1,11 @@
+framework module HybridTest {
+  umbrella header "HybridTest.h"
+
+  export *
+  module * { export * }
+}
+
+module HybridTest.Swift {
+  header "HybridTest-Swift.h"
+  requires objc
+}
