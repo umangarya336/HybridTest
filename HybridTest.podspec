@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source              = { :git => "https://github.com/umangarya336/HybridTest.git",
                             :tag => "#{s.version}"
                           }
-  
+  s.ios.deployment_target = "11.0"
   s.vendored_frameworks = 'HybridTest.framework'
 
 end
